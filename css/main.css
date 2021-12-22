@@ -1,0 +1,70 @@
+.nav_fix{
+    display: flex;
+    align-items: center;
+}
+.logo_img{
+    width: 100px;
+    border-radius: 20px;
+}
+form input{
+    margin-bottom: 20px;
+    width: 100%;   
+}
+.btnl{
+    width: 100%;
+}
+
+.login-btn{
+    margin-left: 20px;
+}
+.fix_top{
+    padding-top: 50px;
+}
+.cotej{
+    display: block;
+    background-color: #F8F9FA;
+    border-radius: 10px;
+    padding: 5px;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+.cotej:hover{
+    text-decoration: none;
+    color: #6c757d;
+}
+.cost{
+    display: flex;
+    justify-content: space-between;
+}
+.cotej img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.main{
+    background-image: url("../img/main.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 180px 0;
+    background-position: cover;
+}
+.main-text{
+    font-size: 60px;
+}
+footer{
+    background-color: slategray;
+}
+@media screen and (max-width:768px) {
+    .login-btn{
+        margin-left: 0;
+    }
+    .navbar-text{
+        display: none;
+    }
+    .main-text{
+        font-size: 30px;
+    }
+    .main{
+        padding: 100px 0;
+    }
+}
